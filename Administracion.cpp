@@ -1,8 +1,22 @@
-/*
-Módulo Recepción:
-Este módulo satisface las necesidades del personal que asiste a los veterinarios en la atención al público. Desde aquí se hace ingreso de las mascotas, y la registración de los turnos.
-Esta aplicación debe permitir obtener un informe de las mascotas atendidos en determinada fecha por un determinado veterinario.
+/*Módulo Administración:
+La gerencia del centro veterinario es la encargada de realizar el alta de los veterinarios que trabajan
+en la institución, así como también de los empleados que realizan la registración de los turnos y mascotas.
+Es el área encargada desea visualizar las atenciones realizadas por los profesionales según las en el
+mes.
+Para incentivar a los veterinarios, la gerencia otorga un bono mensual al profesional que haya
+registrado la mayor cantidad de turnos en ese periodo*/
+
+/*Nombre y Apellido
+
+-Ruiz Linda Selena 
+
+Comision ; 1k1
+
+Correo Electronico
+
+Linda.Ruiz@alu.frt.utn.edu.ar
 */
+
 
 #include <stdlib.h>
 #include <string.h>
@@ -284,7 +298,7 @@ int buscarUsuario(char usu[10],char cla[10])
 echo "# aed" >> README.md
 git init
 git add README.md
-git commit -m "first commit"		(cambiar micaela)
+git commit -m "first commit"		
 git branch -M main
 git remote add origin https://github.com/Lindaruiz20/aed.git
 git push -u origin main
